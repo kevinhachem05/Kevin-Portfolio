@@ -1,0 +1,57 @@
+body , html {
+    margin: 0;
+    padding:0;
+    height: 100%;
+    font-family: Arial , sans-serif;
+}
+.background {
+    background: url(image2.jpg) no-repeat center center / cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.content-box{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    position: center;
+    width:30%;
+    height:30%;
+    max-width:600px;
+    backdrop-filter: blur(1px); /* Apply blur to the background */
+}
+.content-box h1 {
+    margin-bottom : 20px; /*add space below the h1 elemnt */
+    font-size: 2em;
+    color: #ffffff;
+}
+.content-box p {
+    color:white;
+    margin-bottom:25px;
+ 
+}
+
+.social-icons a i {
+    font-size: 40px; /* Adjust the size of the icons */
+    color: #ffffff; /* Optional: Change the color of the icons */
+    margin: 0 15px; /* Add space between the icons */
+    transition: transform 0.3s ease, color 0.3s ease; /* Add a hover effect */
+}
+
+.social-icons a i:hover {
+    color: #ff8c00; /* Change the color on hover */
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+.logo img{
+    width:40px;
+    height:40px;
+    top: 10px; 
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    color:white;
+}
